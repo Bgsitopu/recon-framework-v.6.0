@@ -9,8 +9,7 @@ A professional-grade web reconnaissance framework built for security researchers
 ## ⚡ Quick Start
 
 ```bash
-git clone <repo> recon_framework
-cd recon_framework
+https://github.com/Bgsitopu/recon-framework
 chmod +x install.sh && ./install.sh
 python3 main.py -t https://example.com
 ```
@@ -20,6 +19,9 @@ python3 main.py -t https://example.com
 ## 🚀 Usage
 
 ```bash
+# Enter Script menu
+bash run.sh
+
 # Full scan (all modules)
 python3 main.py -t https://example.com
 
