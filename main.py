@@ -72,7 +72,7 @@ def _bootstrap():
     if not missing:
         return
 
-    print(f"[bootstrap] Installing: {', '.join(p for _, p in missing)}")
+    # silent — run.sh already handles user-facing install feedback
 
     for imp, pip in missing:
         # For packages with known build deps, try apt binary first
@@ -102,7 +102,7 @@ def _bootstrap():
 
         ok = _pip_install_one(pip)
         if not ok:
-            print(f"[bootstrap] WARNING: could not install {pip}")
+            pass  # silent warning
 
         try:
             importlib.import_module(imp)
