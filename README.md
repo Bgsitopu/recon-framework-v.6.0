@@ -12,6 +12,8 @@ A professional-grade web reconnaissance framework built for security researchers
 https://github.com/Bgsitopu/recon-framework
 chmod +x install.sh && ./install.sh
 python3 main.py -t https://example.com
+# for the menu use
+bash run.sh
 ```
 
 ---
