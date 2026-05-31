@@ -1,0 +1,12 @@
+# config/api_keys.yaml
+# Isi API key di sini. Kosongkan ("") untuk skip modul tersebut.
+# Alternatif: set environment variable (VIRUSTOTAL_KEY, dll)
+
+virustotal:     "f8cc736be241e7fe63705c8840f68a18b088664ee9ebe9072ee1768170637055"   # https://www.virustotal.com/gui/my-apikey
+securitytrails: ""   # https://securitytrails.com/app/account/credentials
+binaryedge:     ""   # https://app.binaryedge.io/account/api
+chaos:          "0d6ecf25-cdae-4ebd-b669-1017e9c7f862"   # https://chaos.projectdiscovery.io
+hunterio:       ""   # https://hunter.io/api-keys
+leakix:         ""   # https://leakix.net/settings
+passivetotal:   ""   # https://api.riskiq.net/api/docs/ (username:key)
+zetalytics:     ""   # https://zetalytics.com
